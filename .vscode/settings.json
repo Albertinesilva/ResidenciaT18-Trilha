@@ -5,9 +5,10 @@
   ],
   "java.compile.nullAnalysis.mode": "automatic",
   "java.project.sourcePaths": [
+    "trilha-java/semana3",
     "trilha-java/semana2",
     "trilha-java/semana1/p001",
     "trilha-java/avaliacao",
-    "trilha-java/semana3"
+    "trilha-java/semana4"
   ]
 }
