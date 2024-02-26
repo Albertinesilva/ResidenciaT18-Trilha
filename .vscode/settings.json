@@ -4,5 +4,8 @@
     "c:\\java-libs\\jdbc-connectors\\mysql-connector-j-8.3.0.jar"
   ],
   "java.compile.nullAnalysis.mode": "automatic",
-  "java.project.sourcePaths": ["trilha-java/avaliacao"]
+  "java.project.sourcePaths": [
+    "trilha-java/avaliacao",
+    "trilha-java/semana1/p001"
+  ]
 }
