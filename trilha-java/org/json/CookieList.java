@@ -1,4 +1,6 @@
-package org.json;
+package json;
+
+import json.Cookie;
 
 /*
 Public Domain.
@@ -6,6 +8,7 @@ Public Domain.
 
 /**
  * Convert a web browser cookie list string to a JSONObject and back.
+ * 
  * @author JSON.org
  * @version 2015-12-09
  */
@@ -19,8 +22,9 @@ public class CookieList {
      *
      * To add a cookie to a cookie list,
      * cookielistJSONObject.put(cookieJSONObject.getString("name"),
-     *     cookieJSONObject.getString("value"));
-     * @param string  A cookie list string
+     * cookieJSONObject.getString("value"));
+     * 
+     * @param string A cookie list string
      * @return A JSONObject
      * @throws JSONException if a called function fails
      */
@@ -41,12 +45,13 @@ public class CookieList {
      * of name/value pairs. The names are separated from the values by '='.
      * The pairs are separated by ';'. The characters '%', '+', '=', and ';'
      * in the names and values are replaced by "%hh".
+     * 
      * @param jo A JSONObject
      * @return A cookie list string
      * @throws JSONException if a called function fails
      */
     public static String toString(JSONObject jo) throws JSONException {
-        boolean             isEndOfPair = false;
+        boolean isEndOfPair = false;
         final StringBuilder sb = new StringBuilder();
         // Don't use the new entrySet API to maintain Android support
         for (final String key : jo.keySet()) {

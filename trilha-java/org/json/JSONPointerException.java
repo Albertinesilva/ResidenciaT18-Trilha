@@ -1,8 +1,4 @@
-package org.json;
-
-/*
-Public Domain.
-*/
+package json;
 
 /**
  * The JSONPointerException is thrown by {@link JSONPointer} if an error occurs

@@ -1,6 +1,10 @@
-package org.json;
+package json;
 
 import java.util.Locale;
+
+import json.JSONException;
+import json.JSONObject;
+import json.JSONTokener;
 
 /*
 Public Domain.
